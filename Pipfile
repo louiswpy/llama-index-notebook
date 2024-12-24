@@ -1,0 +1,42 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+python-dotenv = "*"
+llama-index = "*"
+llama-index-llms-ollama = "*"
+llama-index-embeddings-huggingface = "*"
+nltk = "*"
+ipykernel = "*"
+matplotlib = "*"
+llama-index-readers-qdrant = "*"
+optimum = {extras = ["exporters"], version = "*"}
+llama-index-embeddings-huggingface-optimum = "*"
+black = "*"
+qdrant-client = "*"
+langchain-text-splitters = "*"
+fastapi = "*"
+python-multipart = "*"
+langfuse = "*"
+streamlit = "*"
+pymupdf4llm = "*"
+transformers = "*"
+llama-index-vector-stores-qdrant = "*"
+yfiles-jupyter-graphs = "*"
+graphviz = "*"
+pyvis = "*"
+jupyterlab-widgets = "*"
+ipywidgets = "*"
+llama-index-storage-docstore-mongodb = "*"
+llama-index-storage-index-store-mongodb = "*"
+llama-index-vector-stores-chroma = "*"
+llama-index-llms-openai = "*"
+llama-index-utils-workflow = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.11"
+python_full_version = "3.11.9"

@@ -1,0 +1,8 @@
+*.env
+Pipfile.lock
+.ipynb_checkpoints/
+*.pyc
+__pycache__/
+data/
+storage/
+bge_onnx/
